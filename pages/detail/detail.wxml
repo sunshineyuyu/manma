@@ -1,0 +1,16 @@
+<view class="main">
+    <view class="dmain">
+        <view class="dmain_top">
+            <view class="dtitle">{{ article.title }}</view>
+            <view class="dtag">
+                <text wx:key="tag" wx:for="{{ article.tags }}" wx:for-item="tag" class="tag">#{{ tag }}</text>
+            </view>
+            <view class="dtag">
+                <text class="little_time">{{ article.time }}</text>
+            </view>
+        </view>
+        <view class="content">
+            <rich-text nodes="{{ article.content }}"></rich-text>
+        </view>
+    </view>
+</view>

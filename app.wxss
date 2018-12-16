@@ -1,0 +1,75 @@
+page {
+    background: #eee;
+}
+
+.banner {
+    height: calc(100vw/2);
+}
+
+.banner_image {
+    width: 100%;
+    height: calc(100vw/2);
+}
+
+.menu {
+    background: #FFF;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.link {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.videos {
+    background: #FFF;
+    margin-bottom: 15px;
+}
+
+.video_image {
+    width: 100%;
+    height: calc(100vw/2);
+}
+
+.video_info {
+    padding: 12px;
+}
+
+.tag {
+    font-size: 13px;
+    margin-right: 15px;
+    color: #ff9900;
+}
+
+.little_time {
+    font-size: 13px;
+    color: #999;
+}
+
+.video video {
+    width: 100%;
+    height: calc(100vw/1.6);
+}
+
+.dmain {
+    background: #FFF;
+}
+
+.dmain_top {
+    padding: 10px 20px;
+}
+
+.content {
+    font-size: 15px;
+    line-height: 30px;
+    color: #777;
+    padding: 20px;
+}
+
+.noevent {
+    margin-top: 150px;
+    text-align: center;
+    color: #888;
+    font-size: 25px;
+}

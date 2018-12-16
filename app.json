@@ -1,0 +1,40 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/detail/detail",
+        "pages/about/about",
+        "pages/mine/mine"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "漫妈日记",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "files/icons/home.png",
+                "selectedIconPath": "files/icons/home_fill.png"
+            },
+            {
+                "pagePath": "pages/about/about",
+                "text": "关于我们",
+                "iconPath": "files/icons/about.png",
+                "selectedIconPath": "files/icons/about_fill.png"
+            },
+            {
+                "pagePath": "pages/mine/mine",
+                "text": "我的",
+                "iconPath": "files/icons/mine.png",
+                "selectedIconPath": "files/icons/mine_fill.png"
+            }
+        ],
+        "borderStyle": "white",
+        "color": "#111",
+        "selectedColor": "#2d8cf0",
+        "backgroundColor": "#FFF"
+    }
+}

@@ -1,0 +1,70 @@
+.mine {
+    background: #FFF;
+}
+
+.topimage {
+    width: 100%;
+    height: calc(100vw/2);
+}
+
+.topbar {
+    position: relative;
+    height: calc(100vw/2);
+}
+
+.name {
+    margin-top: 10px;
+}
+
+.userinfo {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 90px;
+    color: #FFF;
+    font-size: 14px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.mainbar {
+    width: 100%;
+}
+
+.miniTitle {
+    background: #EEE;
+    color: #999;
+    line-height: 24px;
+    font-size: 13px;
+    padding: 5px 15px;
+}
+
+.infoList {
+    padding: 10px 15px;
+    font-size: 14px;
+    border-top: 1px solid #EEE;
+}
+
+.ilabel {
+    color: #000;
+    /* font-weight: 700; */
+}
+
+.ivalue {
+    color: #999;
+    float: right;
+}
+
+.infoBtnx {
+    width: 120px;
+    font-size: 14px;
+    padding: 0px 15px;
+    margin-top: 10px;
+}
