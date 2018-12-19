@@ -53,7 +53,7 @@ Page({
 
     onShareAppMessage: function () {
         return {
-            title: '画象',
+            title: '漫妈日记',
             path: 'pages/index/index',
             success: function (res) {
                 // 转发成功

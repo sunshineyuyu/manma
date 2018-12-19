@@ -47,6 +47,19 @@ Page({
                 wx.navigateBack();
             }
         });
+    },
+
+    onShareAppMessage: function () {
+        return {
+            title: this.data.article.title,
+            path: 'pages/index/index',
+            success: function (res) {
+                // 转发成功
+            },
+            fail: function (res) {
+                // 转发失败
+            }
+        }
     }
 
 })
